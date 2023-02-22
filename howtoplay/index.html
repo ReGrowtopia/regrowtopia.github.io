@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+	<head>
+		<title>ReGrowtopia - How Do I Play?</title>
+		<link rel="stylesheet" type="text/css" href="../growtopia.css">
+		<script language="javascript" src="../topia_stuff.js"></script>
+	</head>
+	<body>
+		<span class="cloud" id="cloud0"><div class="cloud1" id="cloud0E"></div></span>
+		<span class="cloud" id="cloud1"><div class="cloud1" id="cloud1E"></div></span>
+		<span class="cloud" id="cloud2"><div class="cloud1" id="cloud2E"></div></span>
+		<span class="cloud" id="cloud3"><div class="cloud1" id="cloud3E"></div></span>
+		<span class="cloud" id="cloud4"><div class="cloud1" id="cloud4E"></div></span>
+		<span class="cloud" id="cloud5"><div class="cloud1" id="cloud5E"></div></span>
+		<span class="cloud" id="cloud6"><div class="cloud1" id="cloud6E"></div></span>
+		<span class="cloud" id="cloud7"><div class="cloud1" id="cloud7E"></div></span>
+		<span class="cloud" id="cloud8"><div class="cloud1" id="cloud8E"></div></span>
+		<span class="cloud" id="cloud9"><div class="cloud1" id="cloud9E"></div></span>
+		
+		<div class="sun" id="the_sun"></div>
+		<script>for(var i=0; i<10; i++) cloudGoOnce("cloud"+i);</script>
+		
+		<div style="position:absolute;right:10px;top:10px;align:right;padding:5px;background-color:#2FBFDF;border-style:solid;border-width:1px;border-color:white;z-index:6;" align="right">
+			<a href="..">The Game</a> - 
+			<a href="https://discord.gg/ERE7jhNUCv">Discord</a> - 
+			<a href="../aboutus">About Us</a> - 
+			How To Play
+		</div>
+		
+		<table style="max-width: 60em; " align="center" border="0" width="100%" cellspacing="20px">
+			<tbody>
+				<tr>
+					<td width="100%" colspan="2" class="transbox" style="padding:20px">
+						<font size="+3">How do I play ReGrowtopia?</font>
+						<br>
+						Great question! Here's what you'll need to play ReGrowtopia.
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:20px" valign="top" align="left" class="transbox">
+						<font size="6">I want an easy way to play!</font><br><br>
+						The <font size="4">ReGrowtopia Client</font> is an easy way to play ReGrowtopia on any device without using real Growtopia clients. It comes with a handful of custom features such as custom weathers (they render as default in real GT), and others.
+						
+						<div align="center">
+							<br><a href="../regrowtopia/ReGrowtopiaLauncher.exe"><font size="6">Download the ReGrowtopia launcher for Windows</font></a>
+							<br><a href="../regrowtopia/ReGrowtopia-Release.apk"><font size="6">Download the ReGrowtopia APK for Android</font></a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="transbox" style="padding:20px" valign="top">
+						<font size="6">I want to play with the real Growtopia client!</font><br><br>
+						To play with real Growtopia clients, use one of the methods below:
+						<br>
+						<font size="5"><b>Android:</b><br></font>
+						<a href="regrowtopia.hosts" class="golden">Download the hosts file.</a> (Use Virtual Hosts or <a href="https://play.google.com/store/apps/details?id=dns.hosts.server.change">Hosts Go</a>)
+						<br>
+						<br>
+						<font size="5"><b>iOS:</b><br></font>
+						Use the following domain settings in Surge 5:<br>
+						<!-- note: this shouldn't have been a thing -->
+						<table class="codeblock_table"><td>
+						<code class="codeblock">
+						DOMAIN: growtopia1.com VALUE: growmmfi.de<br>
+						DOMAIN: growtopia2.com VALUE: growmmfi.de<br>
+						DOMAIN: rtsoft.com VALUE: growmmfi.de<br>
+						DOMAIN: hamumu.com VALUE: growmmfi.de<br>
+						</code></tr>
+						</table><br>
+						That, or click "Download Profile from URL" and paste the following link: <a href="http://regrowtopia.com/regt.conf">http://regrowtopia.com/regt.conf</a><br><br>
+						
+						<font size="5"><b>Windows:</b><br></font>
+						On Windows, paste this into your hosts file -- (<code class="codeblock">%WINDIR%\System32\drivers\etc</code>) (and remove the rest):<br>
+						<!-- note: this shouldn't have been a thing -->
+						<table class="codeblock_table"><td>
+						<code class="codeblock">
+						51.75.76.141 growtopia1.com<br>
+						51.75.76.141 growtopia2.com<br>
+						51.75.76.141 rtsoft.com    <br>
+						51.75.76.141 hamumu.com    <br>
+						</code></tr>
+						</table><br>
+						
+						<font size="5"><b>macOS:</b><br></font>
+						On macOS, paste this into your <code class="codeblock">/etc/hosts</code> file (and comment out the rest):<br>
+						<!-- note: this shouldn't have been a thing -->
+						<table class="codeblock_table"><td>
+						<code class="codeblock">
+						51.75.76.141 growtopia1.com<br>
+						51.75.76.141 growtopia2.com<br>
+						51.75.76.141 rtsoft.com    <br>
+						51.75.76.141 hamumu.com    <br>
+						</code></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center" class="transbox" style="padding:20px">
+						For help with the game, visit the <a href="https://discord.gg/ERE7jhNUCv">Discord server</a> or email <a href="mailto:iprogramincpp@gmail.com">iProgramInCpp.</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
